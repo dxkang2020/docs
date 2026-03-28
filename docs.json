@@ -1,0 +1,71 @@
+{
+  "$schema": "https://mintlify.com/docs.json",
+  "theme": "mint",
+  "name": "RunFox 产品知识库",
+  "colors": {
+    "primary": "#4F8A73"
+  },
+  "logo": {
+    "dark": "/logo/dark.svg",
+    "light": "/logo/light.svg"
+  },
+  "favicon": "/favicon.svg",
+  "navigation": {
+    "groups": [
+      {
+        "group": "总览",
+        "pages": [
+          "index",
+          "product-profile",
+          "asset-registry/index",
+          "governance/index"
+        ]
+      },
+      {
+        "group": "卖点卡",
+        "pages": [
+          "claim-cards/index",
+          "claim-cards/app-roles-and-full-path",
+          "claim-cards/daily-speaking-gap-fill",
+          "claim-cards/self-learning-less-parenting-load",
+          "claim-cards/role-play-immersive-interaction",
+          "claim-cards/high-value-lifetime-plan",
+          "claim-cards/full-system-long-term-path",
+          "claim-cards/textbook-alignment-school-connection"
+        ]
+      },
+      {
+        "group": "证据卡",
+        "pages": [
+          "proof-cards/index",
+          "proof-cards/17-level-progression",
+          "proof-cards/brand-and-scale-proof",
+          "proof-cards/new-old-product-upgrade-map",
+          "proof-cards/stage-based-usage-proof",
+          "proof-cards/interaction-loop-proof",
+          "proof-cards/user-initiative-and-retention-proof"
+        ]
+      },
+      {
+        "group": "对比卡",
+        "pages": [
+          "compare-cards/index",
+          "compare-cards/working-with-graded-reading",
+          "compare-cards/working-with-tutor-and-system-classes"
+        ]
+      },
+      {
+        "group": "写法配方",
+        "pages": [
+          "writing-recipes/index",
+          "writing-recipes/overseas-chinese-mom-accounts",
+          "writing-recipes/group-buy-and-efficiency-accounts",
+          "writing-recipes/study-planning-accounts",
+          "writing-recipes/general-parenting-accounts",
+          "writing-recipes/english-teacher-and-methodology-accounts",
+          "writing-recipes/daily-life-and-child-perspective-accounts"
+        ]
+      }
+    ]
+  }
+}

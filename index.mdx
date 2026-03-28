@@ -1,0 +1,78 @@
+---
+title: "小狐狸产品知识库"
+description: "让团队快速浏览结构、补资料、继续维护的小狐狸产品知识库。"
+---
+<CardGroup cols={2}>
+  <Card title="产品主档" icon="book-open" href="/product-profile">
+    产品事实、基础信息、稳定口径
+  </Card>
+  <Card title="卖点卡" icon="sparkles" href="/claim-cards">
+    按卖点拆开的可复用知识卡
+  </Card>
+  <Card title="证据卡" icon="badge-check" href="/proof-cards">
+    支持卖点时可用的证据与边界
+  </Card>
+  <Card title="对比卡" icon="scale-balanced" href="/compare-cards">
+    说明与其他方案怎么配合
+  </Card>
+  <Card title="素材登记" icon="images" href="/asset-registry">
+    图片、动图、封面用途与说明
+  </Card>
+  <Card title="写法配方" icon="pen-ruler" href="/writing-recipes">
+    不同号主类型的写法框架
+  </Card>
+  <Card title="维护规则" icon="users" href="/governance">
+    多人协作时的最低维护规则
+  </Card>
+</CardGroup>
+
+这套知识库的目的，不是做一份很长的大手册，而是把后续写文章、做任务包、补素材时最常用的信息拆成可以组合的模块。
+
+当前版本先分成 6 层：
+
+1. `00-product-profile.md`
+作用：产品主档，放最稳定、最常用、最适合反复引用的基础信息。
+
+2. `10-claim-cards/`
+作用：卖点卡。每张卡只讲一个核心卖点，方便 AI 或人工按需调用。
+
+3. `20-proof-cards/`
+作用：证据卡。回答“凭什么这么说”，避免把推断写成事实。
+
+4. `30-compare-cards/`
+作用：对比和配合关系。说明和分级阅读、外教课、体系课等怎么搭配，而不是互相替代。
+
+5. `40-asset-registry/`
+作用：素材登记表。记录图片、动图、视频封面分别适合说明什么。
+
+6. `90-governance/`
+作用：维护规则。方便多人一起维护，不把知识库越改越乱。
+
+当前已经先补出一批可直接用的内容：
+
+- 产品主档：`1` 份
+- 卖点卡：`7` 张
+- 证据卡：`6` 张
+- 对比卡：`2` 张
+- 素材登记表：`1` 份
+- 按号主类型拆的写法配方：`6` 份
+
+## 当前最适合怎么用
+
+- 给 AI 生成任务包时：
+  - 优先使用 `00-product-profile.md`
+  - 再按文章目标补几张 `claim-cards`
+  - 如涉及对比，再补 `compare-cards`
+  - 最后从 `asset-registry` 选图
+
+- 给人查资料时：
+  - 先看 `00-product-profile.md`
+  - 再按问题去看对应的卡片
+
+## 维护原则
+
+- 产品事实优先放在 `00-product-profile.md`
+- 卖点不要堆在主档里，尽量拆成 `claim-card`
+- 证据不要写成情绪化表达，尽量写清来源和适用边界
+- 素材不要只留文件名，必须写清用途
+- 暂时不追求“一次写全”，先保证结构清楚、便于继续补
